@@ -1,0 +1,238 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link href="./custom-res.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://kit.fontawesome.com/abf3bac6a8.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+<body >
+
+
+    <nav>
+         <ul>
+            <li class="active hideOnMobile"><a href="index.html">Domů</a></li>
+            <li class="hideOnMobile"><a href="Italy.html">Itálie</a></li>
+            <li class="hideOnMobile"><a href="england.html">Anglie</a></li>
+               <li class="hideOnMobile"><a href="croatia.html">Chorvatsko</a></li>
+            <li class="menuBtn" onclick="showSidebar()"><a><i class="fa-solid fa-bars"></i></a></li>
+            <li id="icon" class="hideOnMobile"><a href="#"><i  id="Dark" class="bi bi-moon"></i></a></li>
+        </ul>    
+
+        <ul class="sidebar">
+             <li onclick="hideSidebar()"><a><i class="fa-solid fa-xmark"></i></a></li>
+            <li><a href="index.html">Domů</a></li>
+            <li><a href="Italy.html">Itálie</a></li>
+            <li><a href="england.html">Anglie</a></li>
+             <li><a href="croatia.html">Chorvatsko</a></li>¨
+           
+        </ul>    
+        </ul>
+    </nav>
+
+<div class="country-hero ">
+    
+    <div class="country-bg-content">
+<h1 class=" nadpis-hero  font-bold  uppercase text-7xl l">Česká republika </h1>
+      
+      
+
+        <button class=" text-[25px]   flex flex-row justify-center gap-[10px] w-[200px] rounded-3xl">
+          
+         <img src="../img/image-removebg-preview.png" alt="">
+
+
+    </div>
+
+</div>
+
+
+
+<div class="country-places h-full w-[100% ] flex justify-center flex-col  items-center gap-[20px]">
+
+<div class="group">
+  <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><g><path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path></g></svg>
+  <input onkeyup="search()" placeholder="Hledej místo" type="search" class="input">
+</div>
+
+<div class="country-places-content overflow-hidden  flex flex-col justify-center items-center">
+
+
+    <div class="country-place  ">
+       
+        <img src="../img/rally.jpg" alt="">
+         <div class="other">
+ <h2>Barum Rally - Žlutava</h2>
+        <p>Tohle bych bral spíš jako takovou víkendovou akci, kdy jsme různě projížděli naším krajem. Avšak jedno místo,
+            které bych chtěl vyzdvihnout, je kamenolom na Žlutavě, kama projíždí erzeta Halenkovice. Toto místo sem zařazuju, protože
+            se tam nachází šotolina, takže jsem si připadal, jako na Rally Acropolis.
+
+        </p>
+
+        <div class="hodnoceni">
+            <i class="fa-solid fa-star "></i>
+            <i class="fa-solid fa-star "></i>
+            <i class="fa-solid fa-star "></i>
+            <i class="fa-solid fa-star "></i>
+            <i class="fa-solid fa-star "></i>
+        </div>
+
+        <div class="logo">
+                <img src="../img/barum-rally-logo.png" alt="">
+        </div>
+    
+        </div>
+       
+
+    
+
+      </div>  
+
+      <div class="country-place  ">
+       
+        <img src="../img/tancici.jpg" alt="">
+         <div class="other">
+ <h2>Praha - Tančící dům</h2>
+        <p>Jedno z mnoha navštívených míst, které jsem už párkrát viděl. Vždy však potěší
+            vidět tuhle krásnou stavbu, které se vymiká všem ostatním okolo. Ne-li v celé Praze. Pokaždé si na tomto 
+        místě vzpomenu na Kluky z Prahy, kteří točili video o tom jak trávník, kde stojí socha, je vždy bez trávy, díky 
+    turistům, kteří si chcou tuto architektonickou památku vyfotit. </p>
+
+              <div class="hodnoceni">
+            <i class="fa-solid fa-star "></i>
+            <i class="fa-solid fa-star "></i>
+            <i class="fa-solid fa-star "></i>
+            <i class="fa-solid fa-star "></i>
+          
+        </div>
+        </div>
+       
+
+    
+
+      </div>  
+
+      <div class="country-place  ">
+       
+        <img src="../img/lenonova.jpg" alt="">
+         <div class="other">
+ <h2>Praha - Lenonova zeď</h2>
+        <p>Lenonovu zeď jsem viděl poprvé v životě. Určitě byla moc krásná a šlo vidět, že se na ní už
+            pár lidí podepsalo svým dílem. Jako vždy byla plná turistů, kteří si chtěli udělat fotku. Ještě lepší
+            byla ke zdi cesta, která nás vedle pod Karlovým mostem a nadhernýmí úzkými uličkami.
+        </p>
+
+            <div class="hodnoceni">
+            <i class="fa-solid fa-star "></i>
+            <i class="fa-solid fa-star "></i>
+            <i class="fa-solid fa-star "></i>
+            <i class="fa-solid fa-star "></i>
+            <i class="fa-solid fa-star "></i>
+        </div>
+        </div>
+       
+
+    
+
+      </div>  
+
+      <div class="country-place  ">
+       
+        <img src="../img/vaclavak.jpg" alt="">
+         <div class="other">
+ <h2>Praha - Václavské náměstí</h2>
+        <p>Místo, na které vždy když přijdu, tak si vybavím zaběry z 21. srpna 1968, což je den, kdy tento katalog
+            tvořím. Vzpomenu si na to, jak armády varšavské smlouvy zbytečně stříleli do Národního muzea, protožes
+            si mysleli, že tam sídlí vláda. 
+            Taky jsem se zde poprvé vydal na vlastní pěst metrem. Ze začátku panoval strach, ale nakonec
+            to bylo jednodušší, než jsem čekal.</p>
+
+
+            <div class="hodnoceni">
+            <i class="fa-solid fa-star "></i>
+            <i class="fa-solid fa-star "></i>
+            <i class="fa-solid fa-star "></i>
+            <i class="fa-solid fa-star "></i>
+            <i class="fa-solid fa-star "></i>
+        </div>
+        </div>
+       
+
+    
+
+      </div>  
+
+       <div class="country-place  ">
+       
+        <img src="../img/parasutistt.jpg" alt="">
+         <div class="other">
+ <h2>Praha - Kostel parašutistů operace Anthropoid</h2>
+        <p>Méně známé místo pro normální turisty je kostel Sv. Cyrila a Metoděje, kde v se v roce
+            1942 ukrývali parašutisté, kteří provedli atentát na zastupujícího říšského protektora Reinharda Heydricha.
+            Po několika dnech byli parašutisté obklíčeni a po dlouhém boji se všichni buď zabili sami, nebo byli zabiti.
+            Toto místo je pro mě velmi důležité, protože jsem historický fanatik.
+        </p>
+
+        
+            <div class="hodnoceni">
+            <i class="fa-solid fa-star "></i>
+            <i class="fa-solid fa-star "></i>
+            <i class="fa-solid fa-star "></i>
+            <i class="fa-solid fa-star "></i>
+            <i class="fa-solid fa-star "></i>
+        </div>
+        </div>
+       
+
+    
+
+      </div>  
+       <div class="country-place  ">
+       
+        <img src="../img/divadlo.jpg" alt="">
+         <div class="other">
+ <h2>Praha - Národní divadlo</h2>
+        <p>Během toho, co jsme procházeli Náplavkou od Karlova Mostu jsme narazli na Národní divadlo. 
+            O divadlu upřímně moc nevím. Vím, že v minulosti shořelo a pak bylo znovu postaveno.
+            Každopadně je to krásná budova, která leží vedle Vltavy a je tam opět mnoho turistů,
+            proudící do centra Prahy.
+             
+        </p>
+        <div class="hodnoceni">
+            <i class="fa-solid fa-star "></i>
+            <i class="fa-solid fa-star "></i>
+            <i class="fa-solid fa-star "></i>
+            <i class="fa-solid fa-star "></i>
+          
+        </div>
+        </div>
+       
+
+    
+
+      </div>  
+    </div>
+    
+   
+    
+    
+    
+    
+</div>
+
+
+</div>
+
+
+
+
+    <script src="../src/script.js" ></script>
+    <script src="../src/gsap.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+</body>
+</html>

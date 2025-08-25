@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link href="./custom-res.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://kit.fontawesome.com/abf3bac6a8.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+<body >
+
+ 
+    <nav>
+         <ul>
+            <li class="hideOnMobile"><a href="#">Domů</a></li>
+            <li class="hideOnMobile"><a href="#destinace">Destinace</a></li>
+            <li class="hideOnMobile"><a href="#">Tier List</a></li>
+            <li class="menuBtn" onclick="showSidebar()"><a><i class="fa-solid fa-bars"></i></a></li>
+            <li id="icon" class="hideOnMobile"><a href="#"><i  id="Dark" class="bi bi-moon"></i></a></li>
+        </ul>    
+
+        <ul class="sidebar">
+             <li onclick="hideSidebar()"><a><i class="fa-solid fa-xmark"></i></a></li>
+            <li><a href="#">Domů</a></li>
+            <li><a href="#destinace">Destinace</a></li>
+            <li><a href="#">Tier List</a></li>¨
+           
+        </ul>    
+        </ul>
+    </nav>
+   
+<div class="hero h-full">      
+    <div class="bg-content gap-[20px]">
+
+           <div  class="schedule-hero  flex justify-center items-center  w-[200px] h-[30px] gap-1 p-[10px] rounded-2xl">
+                <img src="../img/calendar_month_24dp_F3F3F3_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                 <h3 class=" text-center ">17. červen - 31. srpen</h3>
+           </div> 
+
+      
+        <h1 class=" nadpis-hero  font-bold  uppercase text-7xl l">Katalog Destinací  </h1>
+        <h1 class=" rok  font-light uppercase text-7xl">2025 </h1>
+
+        <button class=" text-[25px]   flex flex-row justify-center gap-[10px] w-[200px] rounded-3xl">
+          <a href="#destinace">Prozkoumat</a>
+        <img src="../img/arrow_forward_ios_24dp_F3F3F3_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+        </button>
+       
+
+      
+<div class="funny-stats   gap-[30px] flex justify-center items-center ">
+  
+  <div class="stat-box  flex flex-col items-center mt-[20px]   p-6 rounded-lg">
+    <h3 class=" text-4xl mb-2">Počet fotek</h3>
+    <p class=" text-4xl font-bold">1415</p>
+    
+  </div>
+
+
+<div class="border   h-[100px] w-[4px]"></div>
+ 
+  <div class="stat-box flex flex-col items-center  p-6 rounded-lg">
+    <h3 class=" text-4xl mb-2">Utracené peníze</h3>
+    <p class=" text-4xl font-bold">∞</p>
+  </div>
+
+ <div class="border   h-[100px] w-[4px]"></div>
+
+  <div class="stat-box flex flex-col items-center  p-6 rounded-lg">
+    <h3 class=" text-4xl mb-2">Počet destinací</h3>
+    <p class="  text-4xl font-bold">4</p>
+  </div>
+</div>
+
+    </div>
+</div> 
+    
+
+ <div class="heading flex justify-center mb-[2.5 rem] font-bold uppercase text-4xl  mb-8">
+    <h1>Destinace</h1>
+  </div>
+
+
+
+<div id="destinace" class="destinace mt-[200px]  mb-[100px] w-full h-[80vh] flex   items-center">
+
+
+ 
+  <div class="box-destinace ">
+    <img src="../img/IMG_3575.jpg" alt="">
+    <div class="info">
+      <h1>Chorvatsko </h1>
+      <p>Klasická rodinná dovolená, kde se nestalo nic neobvyklého</p>
+      <a href="croatia.html"><i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </div>
+
+  <div class="box-destinace">
+    <img src="../img/IMG_4688.jpg" alt="">
+    <div class="info">
+      <h1>Česko </h1>
+      <p>Zážitky z naší země zaslíbené</p>
+      <a href="czech.html"><i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </div>
+
+  <div class="box-destinace">
+    <img src="../img/IMG_6511.jpg" alt="">
+    <div class="info">
+      <h1>Anglie</h1>
+      <p>Školní výlet na konci června, které si uchová navždy místo v mém srdci</p>
+     <a href="england.html"> <i class="fa-solid fa-arrow-right"></i></a> 
+    </div>
+  </div>
+
+  <div class="box-destinace">
+    <img src="../img/IMG_6969.jpg" alt="">
+    <div class="info">
+      <h1>Itálie</h1>
+      <p>Spontánní výlet do Terstu, který se proměnil z noční můry na noc mezi bohatými německými papaláši.</p>
+      <a href="Italy.html"><i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </div>
+
+</div>
+
+
+ <div class="heading flex justify-center mb-[2.5 rem] font-bold uppercase  text-4xl  mb-10">
+    <h1>Tier List</h1>
+  </div>
+
+
+<div class="tier-list">
+
+  <div class="tier-list-rada">
+
+      <div class="tier-list-1">
+    
+  </div>
+  <h3>Chorvatsko</h3>
+
+  <div class="tier-list-2">
+   
+  </div>
+   <h3>Anglie</h3>
+
+  <div class="tier-list-3">
+    
+    
+  </div>
+   <h3>Česká republika</h3>
+
+  </div>
+
+
+</div>
+
+
+
+
+    
+    <script src="../src/script.js"></script>
+    <script src="../src/gsap.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+
+
+
+
+
+</body>
+</html>

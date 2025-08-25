@@ -1,0 +1,213 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link href="./custom-res.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://kit.fontawesome.com/abf3bac6a8.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+<body >
+
+
+    <nav>
+         <ul>
+            <li class="active hideOnMobile"><a href="index.html">Domů</a></li>
+            <li class="hideOnMobile"><a href="czech.html">Česko</a></li>
+            <li class="hideOnMobile"><a href="england.html">Anglie</a></li>
+               <li class="hideOnMobile"><a href="#">Chorvatsko</a></li>
+            <li class="menuBtn" onclick="showSidebar()"><a><i class="fa-solid fa-bars"></i></a></li>
+            <li id="icon" class="hideOnMobile"><a href="#"><i  id="Dark" class="bi bi-moon"></i></a></li>
+        </ul>    
+
+        <ul class="sidebar">
+             <li onclick="hideSidebar()"><a><i class="fa-solid fa-xmark"></i></a></li>
+            <li><a href="index.html">Domů</a></li>
+            <li><a href="czech.html">Česko</a></li>
+            <li><a href="Italy.html">Anglie</a></li>
+             <li><a href="croatia.html">Chorvatsko</a></li>¨           
+        </ul>    
+        </ul>
+    </nav>
+
+<div class="country-hero "> 
+
+    <div class="country-bg-content italy">
+      
+        <h1 class=" nadpis-hero  font-bold  uppercase text-7xl l">Itálie</h1>
+
+        <button class=" text-[25px]   flex flex-row justify-center gap-[10px] w-[200px] rounded-3xl">
+          
+         <img src="https://cdn.pixabay.com/photo/2016/06/30/16/36/italy-1489369_1280.png" alt="">
+    </div>
+
+</div>
+
+
+
+<div class="country-places h-full w-[100% ] flex justify-center flex-col  items-center gap-[20px]">
+
+<div class="group">
+  <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><g><path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path></g></svg>
+  <input onkeyup="search()" placeholder="Hledej místo" type="search" class="input">
+</div>
+
+<div class="country-places-content overflow-hidden  flex flex-col justify-center items-center">
+
+
+    <div class="country-place  ">
+       
+        <img src="../img/italybg.jpg" alt="">
+         <div class="other">
+ <h2>Opicina</h2>
+        <p>Zde začala naše nečekaná prodloužená dovolená. Po cestě z Chorvatska jsme se zastavili v malebném přístavním
+            městě Trieste. Chtěli jsme se zde stavit pouze na pořádnou italskou zmrzku a jet domů na Slovinsko. Po odjezdu nás čekali klikaté serpentýny
+            ,které vedli do obce Opicina. Jenže...Auto se začalo najednou hůře zatáčet a my věděli že je problém. Odpověď je jednoduchá. Prasklý klínový řemen.
+            Opicina měla krásný výhled na celé město Trieste
+
+        </p>
+
+        <div class="hodnoceni">
+            <i class="fa-solid fa-star "></i>
+            <i class="fa-solid fa-star "></i>
+            <i class="fa-solid fa-star "></i>
+            <i class="fa-solid fa-star "></i>
+            <i class="fa-solid fa-star "></i>
+        </div>
+
+        
+    
+        </div>
+       
+
+    
+
+      </div>  
+
+      <div class="country-place  ">
+       
+        <img src="../img/IMG_6983.jpg" alt="">
+         <div class="other">
+ <h2>Villa Bottacin</h2>
+        <p>Toto místo navazuje na nehodu s klínovým řemenem. Jelikož jsme měli dobré pojištění na takové situace,
+            pojišťovna nám tedy poskytla místo na přespání. Avšak nikdo nečekal tohle. 5 hvězdičkový hotel. Plný bohatých 
+        němců, kteří si užívali u bazénku místo u moře. Jídlo až pod nos a pokoje jako z paláce</p>
+
+              <div class="hodnoceni">
+            <i class="fa-solid fa-star "></i>
+            <i class="fa-solid fa-star "></i>
+            <i class="fa-solid fa-star "></i>
+            <i class="fa-solid fa-star "></i>
+             <i class="fa-solid fa-star "></i>
+          
+        </div>
+        </div>
+       
+
+    
+
+      </div>  
+
+      <div class="country-place  ">
+       
+        <img src="../img/IMG_6959.jpg" alt="">
+         <div class="other">
+ <h2>Trieste - centrum</h2>
+        <p>Krásné uličky plné lidí s mnoha drahými obchody, jako Gucci atd.
+            Během chůze podél řeky, která ústila do moře, jsme si všimli nečeho zajimavého. Kromě dopravních
+            značek a židlí z restaurací jsme si všimli nějaké zajímavé ryby jiného tvaru. A ta ryba byla rejnok. 
+            Poprvé v životě jsem tak spatřil rejnoka mimo zlínské zoo
+
+        </p>
+
+            <div class="hodnoceni">
+            <i class="fa-solid fa-star "></i>
+            <i class="fa-solid fa-star "></i>
+            <i class="fa-solid fa-star "></i>
+            <i class="fa-solid fa-star "></i>
+            <i class="fa-solid fa-star "></i>
+        </div>
+        </div>
+       
+
+    
+
+      </div>  
+
+      <div class="country-place  ">
+       
+        <img src="../img/IMG_6990.jpg" alt="">
+         <div class="other">
+ <h2>Trieste - Pizza</h2>
+        <p> Rád bych zde přidal přesný název pizzerie, bohužel si ji však nepamatuju a je těžké hledat mezi ostatními ve městě, protože 
+            jich je nečekaně hrozně moc. Nic jiného než gastro zážitek jsem nečekal. Absolutní chálka!
+        </p>
+
+
+            <div class="hodnoceni">
+            <i class="fa-solid fa-star "></i>
+            <i class="fa-solid fa-star "></i>
+            <i class="fa-solid fa-star "></i>
+            <i class="fa-solid fa-star "></i>
+            <i class="fa-solid fa-star "></i>
+        </div>
+        </div>
+       
+
+    
+
+      </div>  
+
+       <div class="country-place  ">
+       
+        <img src="../img/IMG_6954.jpg" alt="">
+         <div class="other">
+ <h2>Teatro Romano di Trieste</h2>
+        <p>Římské divadlo v Terstu bylo postaveno v 1. století našeho letopočtu, za vlády císaře Traiana. Nachází se na úpatí kopce San Giusto, kde svah sloužil jako přirozená opora pro hlediště. Do divadla se vešlo přibližně 3 500 diváků a sloužilo hlavně pro představení a veřejná shromáždění. Po staletí bylo skryté pod novější
+             zástavbou a znovu objeveno bylo až na začátku 20. století. Dnes je volně přístupné a patří mezi významné památky města.
+        </p>
+
+        
+            <div class="hodnoceni">
+            <i class="fa-solid fa-star "></i>
+            <i class="fa-solid fa-star "></i>
+            <i class="fa-solid fa-star "></i>
+            <i class="fa-solid fa-star "></i>
+            <i class="fa-solid fa-star "></i>
+        </div>
+        </div>
+       
+
+    
+
+      </div>  
+       
+       
+
+    
+
+      </div>  
+    </div>
+    
+   
+    
+    
+    
+    
+</div>
+
+
+</div>
+
+
+
+
+    <script src="../src/script.js" ></script>
+    <script src="../src/gsap.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+</body>
+</html>
