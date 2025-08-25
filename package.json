@@ -1,21 +1,12 @@
 {
   "name": "tr-catalog",
   "version": "1.0.0",
-  "main": "index.js",
+  "private": true,
+  "description": "TR Catalog project with TailwindCSS",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
+    "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/to0mas/TR-catalog.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/to0mas/TR-catalog/issues"
-  },
-  "homepage": "https://github.com/to0mas/TR-catalog#readme",
-  "description": "",
   "dependencies": {
     "@tailwindcss/cli": "^4.1.12",
     "tailwindcss": "^4.1.12"
